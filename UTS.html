@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UTS Pengantar Teknologi Internet</title>
+  <link rel="stylesheet" href="main.css"/>
+</head>
+
+
+<body id="k1">
+  <div class="col-12 center padding-32" style="float:left;">
+    <h1 class="top">Data Makanan</h1>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <hr/>
+  </div>
+  <div class="col-12 padding-32">
+    <input class="form-tambah" type="text" placeholder="Input nama makanan" id="tambahkan"/>
+    <input type="hidden" id="savefood">
+    <button class="btn-tambah" id="tambahbtn">Create</button>
+  </div>
+  <button class="btn-tambah" id="editbtn" style="display: none;">Update</button>
+  <div class="col-8 center padding-32">
+    <h3>List Makanan</h3>
+    <table id="tabel">
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Nama Makanan</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody id="tambah"></tbody>
+    </table>
+  </div>
+  <div class="col-12 center padding-32" style="padding-top: 128px;">
+    <button class="randomize" onclick="muncul()">RANDOMIZE</button>
+    <br>
+    <label>Breakfast</label><br>
+    <input size="50" id="breakfast" name="breakfast"><br>
+    <label>Lunch</label><br>
+    <input size="50" id="lunch" name="lunch"><br>
+    <label>Dinner</label><br>
+    <input size="50" id="dinner" name="dinner">
+  </div>
+  <marquee>(IF231-B) - Pengantar Teknologi Internet (Projek UTS) </marquee>
+  <hr/>
+  <div class="content">
+    <img src="pict.png" width="100%">
+    <div class="chef">
+      <div>
+        <h1 class="ml6">
+          <span class="text-wrapper">
+            <span class="letters">Daftar Koki Hari ini</span>
+          </span>
+        </h1>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+      </div>
+      <div class="col-12 center padding-32">
+        <h3>Jovan Haliem</h3>
+        <p>NIM: 00000047672</p>
+      </div>
+      <div class="col-12 center padding-32">
+        <h3>Bryant Christopher Hihola</h3>
+        <p>NIM: 00000051191</p>
+      </div>
+      <div class="col-12 center padding-32">
+        <h3>Muhammad Nouval Daviansyah</h3>
+        <p>NIM: 00000047293</p>
+      </div>
+      <div class="col-12 center padding-32">
+        <h3>Noveliyo Frendika</h3>
+        <p>NIM: 00000050725</p>
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
